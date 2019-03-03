@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="11dp">
+    <ImageView
+        android:id="@+id/img"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/paytm"/>
+
+    <TextView
+        android:id="@+id/PackageName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Package Name"
+        android:textColor="#000000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        android:text="5 days,starting 2000$  | Baraket Travel"/>
+
+   <TextView
+       android:id="@+id/NoUser"
+       android:layout_toRightOf="@+id/Description"
+       android:text="324"
+       android:layout_marginTop="5dp"
+       android:textColor="#000000"
+       android:layout_marginLeft="80dp"
+       android:textSize="12dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/eyeimg"
+            android:layout_toRightOf="@id/NoUser"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eye"/>
+        <ImageView
+            android:id="@+id/star"
+            android:layout_toRightOf="@id/eyeimg"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star"/>
+
+    <Button
+        android:layout_below="@+id/Description"
+        android:id="@+id/Submit"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eff47f3b"
+        android:textColor="#ffffff"
+        android:text="Chat Now"/>
+    </RelativeLayout>
+</LinearLayout>
