@@ -1,6 +1,7 @@
-package com.example.india.recycleview;
+package com.example.india.recycleview.Recyle;
 
-public class ItemModel {
+public class
+ItemModel {
 
 
     public  int img;

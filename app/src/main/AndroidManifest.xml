@@ -21,9 +21,9 @@
         </activity>
 
 
-        <activity android:name=".GridRecycle" />
-        <activity android:name=".RecyclePage" />
-        <activity android:name=".ListPage"></activity>
+        <activity android:name=".Recyle.GridRecycle" />
+        <activity android:name=".Recyle.RecyclePage" />
+        <activity android:name=".ListView.ListPage"></activity>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.example.india.recycleview;
+package com.example.india.recycleview.Recyle;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.india.recycleview.R;
 
 import java.util.ArrayList;
 
@@ -44,6 +46,7 @@ public class RecycleAdapter extends RecyclerView.Adapter<RecycleAdapter.ItemView
 
     @Override
     public int getItemCount() {return itemModels.size();}
+
 
 
 

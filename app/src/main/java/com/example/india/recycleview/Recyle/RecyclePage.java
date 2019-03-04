@@ -1,10 +1,13 @@
-package com.example.india.recycleview;
+package com.example.india.recycleview.Recyle;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.india.recycleview.MainActivity;
+import com.example.india.recycleview.R;
 
 public class RecyclePage extends AppCompatActivity {
 Button gridrecycle,Linerecycle;

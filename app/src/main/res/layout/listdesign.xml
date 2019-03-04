@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#7AEDEAEA"
+    android:weightSum="2">
+
+
+
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/img"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/holiday"/>
+
+
+        <TextView
+            android:id="@+id/txtView"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Name"
+            android:gravity="center"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </RelativeLayout>
+
+    </LinearLayout>
