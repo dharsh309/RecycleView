@@ -21,9 +21,9 @@ RecyclerView GridRecyclebar;
 
             ArrayList<ItemModel> itemModels= new ArrayList<>();
             for (int i=0;i<10;i++){
-                itemModels.add(new ItemModel(R.drawable.shimla,"Deepak","5 days,starting 2000$  | Baraket Travel","Package Name"));
-                itemModels.add(new ItemModel(R.drawable.holiday,"Aman","5 days,starting 2000$  | Baraket Travel","Package Name"));
-                itemModels.add(new ItemModel(R.drawable.honey,"Aman","5 days,starting 2000$  | Baraket Travel","Package Name"));
+                itemModels.add(new ItemModel(R.drawable.shimla,"Shimla","5 days,starting 2000$  | Baraket Travel","Package Name"));
+                itemModels.add(new ItemModel(R.drawable.holiday,"World Tour","5 days,starting 2000$  | Baraket Travel","Package Name"));
+                itemModels.add(new ItemModel(R.drawable.honey,"Honeymoon","5 days,starting 2000$  | Baraket Travel","Package Name"));
             }
             RecycleAdapter dataAdapter=new RecycleAdapter(this,itemModels);
             GridRecyclebar.setAdapter(dataAdapter);

@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.india.recycleview.R;
 
@@ -36,12 +37,20 @@ public class RecycleAdapter extends RecyclerView.Adapter<RecycleAdapter.ItemView
 
 
     @Override
-    public void onBindViewHolder(@NonNull RecycleAdapter.ItemViewHolder itemViewHolder, int position) {
-        ItemModel itemModel=itemModels.get(position);
+    public void onBindViewHolder(@NonNull RecycleAdapter.ItemViewHolder itemViewHolder, final int position) {
+        final ItemModel itemModel=itemModels.get(position);
         itemViewHolder.textView1.setText(itemModel.Pack);
         itemViewHolder.textView.setText(itemModel.Description);
 
         itemViewHolder.imageView.setImageResource(itemModel.img);
+        itemViewHolder.imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(context,""+itemModel.getName(), Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
     }
 
     @Override
